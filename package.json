@@ -1,6 +1,6 @@
 {
   "name": "threebox_ngx",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Threebox that works for angular",
   "main": "threebox.js",
   "scripts": {
