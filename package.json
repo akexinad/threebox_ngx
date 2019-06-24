@@ -1,0 +1,19 @@
+{
+  "name": "threebox_ngx",
+  "version": "1.2.3",
+  "description": "Threebox that works for angular",
+  "main": "threebox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterqliu/threebox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterqliu/threebox/issues"
+  },
+  "homepage": "https://github.com/peterqliu/threebox#readme"
+}
