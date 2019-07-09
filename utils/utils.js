@@ -184,12 +184,12 @@ var utils = {
     },
 
     extend: function(original, addition) {
-        for (key in addition) original[key] = addition[key];
+        for (var key in addition) original[key] = addition[key];
     },
 
     clone: function(original) {
         var clone = {};
-        for (key in original) clone[key] = original[key];
+        for (var key in original) clone[key] = original[key];
         return clone;
     },
     
@@ -230,7 +230,7 @@ var utils = {
         var validatedOutput = {};
         utils.extend(validatedOutput, userInputs);
 
-        for (key of Object.keys(defaults)){
+        for (var key of Object.keys(defaults)){
 
             if (userInputs[key] === undefined) {
                 //make sure required params are present
